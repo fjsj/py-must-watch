@@ -19,7 +19,7 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.8/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular.min.js"></script>
     <script src="static/js/controller.js"></script>
 
   </head>
@@ -54,10 +54,10 @@
       </div>
 
       <br />
-      
+
       <div class="row">
 
-        <div class="col-md-3 col-sm-6" ng-repeat="video in videos | filter:query">
+        <div class="col-md-3 col-sm-6 video-col" ng-repeat="video in videos | filter:query">
           <div class="well well-xxsm well-video-container">
             <div class="video-container-title">
               {{video.title}}
